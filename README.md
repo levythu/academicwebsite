@@ -1,2 +1,2 @@
-# academicwebsite
-Academic personal website.
+#Academic personal website.
+A set of static pages.
