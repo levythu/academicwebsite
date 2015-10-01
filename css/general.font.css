@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'sitka-tailored';
+    src: local("Sitka Text"),url(''),local("serif");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'custom-sans-serif';
+    font-weight: lighter;
+    src: local("Segoe UI"), local("Arial"), local("sans-serif");
+}

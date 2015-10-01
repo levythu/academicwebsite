@@ -1,0 +1,100 @@
+body {
+    background: #fefefe;
+}
+
+.plcholder_10em {
+    height: 10em;
+}
+
+.plcholder_7em {
+    height: 7em;
+}
+
+a {
+    color: rgb(0, 112, 192);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/*==================================*/
+.Cont {
+    font: 1em "custom-sans-serif";
+	color: #333;
+	line-height: 1.5;
+	text-align: justify;
+    margin:auto;
+    max-width:50em;
+}
+.Cont h1 {
+    text-align: center;
+    color: rgb(139,31,21);
+    font: 1.5em "sitka-tailored";
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.Cont .byline {
+    font-style: italic;
+}
+.Cont .chhead {
+    font-weight: bold;
+}
+/*==================================*/
+.boldness {
+    font-weight: bold;
+}
+.div2res {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.right1pxborderres {
+    border-right: 1px solid #BCBCBC;
+    margin-right: 2%;
+    width: 47%;
+}
+.right1pxborderres_rightone {
+    width: 47%;
+    margin-left: 2%;
+}
+.centeredAlign {
+    text-align: center;
+}
+.nomargin {
+    margin: 0;
+}
+.restricted70 {
+    width: 70%;
+    margin: auto;
+}
+.fullwidth {
+    width: 100%;
+}
+.verticalmargin1em {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    .div2res {
+        width: 100%;
+        margin-bottom: 2em;
+        display: block;
+    }
+    .force_no_margin_bottom {
+        margin-bottom: 0px;
+    }
+    .right1pxborderres {
+        border-right: 0px;
+        margin-right: 0px;
+    }
+    .right1pxborderres_rightone {
+        margin-left: 0px;
+    }
+    .restricted70 {
+        width: 100%;
+    }
+}
