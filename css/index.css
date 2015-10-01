@@ -50,3 +50,17 @@
     display: table;
     margin: 0 auto;
 }
+
+.picdemo_cont {
+    margin: 0.5em;
+    text-align: center;
+    display: inline-block;
+}
+.pic_demo {
+    height: 7em;
+}
+
+.legen {
+    font-size: 0.8em;
+    color: #555555;
+}

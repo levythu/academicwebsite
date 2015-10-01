@@ -5,9 +5,14 @@ body {
 .plcholder_10em {
     height: 10em;
 }
-
+.plcholder_1p5em {
+    height: 1.5em;
+}
 .plcholder_7em {
     height: 7em;
+}
+.plcholder_3em {
+    height: 3em;
 }
 
 a {
@@ -41,6 +46,10 @@ a:hover {
 }
 .Cont .chhead {
     font-weight: bold;
+}
+.Cont .chheadbig {
+    font-weight: bold;
+    font-size: 1.2em;
 }
 /*==================================*/
 .boldness {
@@ -76,6 +85,10 @@ a:hover {
 .verticalmargin1em {
     margin-top: 1em;
     margin-bottom: 1em;
+}
+.restrictY {
+    width: 100%;
+    overflow-y: auto;
 }
 
 @media screen and (max-width: 480px) {
