@@ -24,17 +24,17 @@ a:hover {
 }
 /*==================================*/
 .Cont {
-    font: 1em "custom-sans-serif";
+    font: 1em "Karla", "sans-serif";
 	color: #333;
 	line-height: 1.5;
-	text-align: justify;
+	text-align: left;
     margin:auto;
     max-width:50em;
 }
 .Cont h1 {
     text-align: center;
     color: rgb(139,31,21);
-    font: 1.5em "sitka-tailored";
+    font: 1.55em "Neuton", "serif";
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -88,7 +88,8 @@ a:hover {
 }
 .restrictY {
     width: 100%;
-    overflow-y: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 @media screen and (max-width: 480px) {

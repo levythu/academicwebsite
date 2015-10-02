@@ -8,7 +8,8 @@
     background: #fefefe;
     border-bottom: solid 1px #e4e3e5;
     overflow: hidden;
-    font-family: "sitka-tailored";
+    font-size: 1.05em;
+    font-family: "Neuton", "serif";
 }
 #clearABS {
     top: 17em;
