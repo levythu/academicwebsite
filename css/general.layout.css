@@ -92,6 +92,57 @@ a:hover {
     overflow-y: hidden;
 }
 
+.button_blue {
+    font: 0.9em 'Montserrat', sans-serif;
+    color: #3190e7;
+    background: #fefefe;
+    cursor: default;
+
+    border: 1px solid #3190e7;
+    padding: 10px 15px;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+
+    display: inline-block;
+}
+.button_blue_sanborder {
+    color: #3190e7;
+    background: #fefefe;
+    padding: 7px 12px;
+    cursor: default;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    overflow: hidden;
+}
+.button_blue_sanborder:hover {
+    color: #fefefe;
+    background: #3190e7;
+    text-decoration: none;
+}
+.button_blue_sanborder_collapser {
+    height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+deled {
+    text-decoration: line-through;
+}
+
 @media screen and (max-width: 480px) {
     .div2res {
         width: 100%;

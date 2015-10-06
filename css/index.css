@@ -45,6 +45,30 @@
     letter-spacing: 0.1em;
     display: block;
 }
+#langSwitch {
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    font: 0.9em 'Montserrat', sans-serif;
+    border: 1px solid transparent;
+    background: #fefefe;
+    overflow: hidden;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.langSwitchwb {
+    border: 1px solid #3190e7 !important;
+}
 
 .t_byline2 {
     font-size: 1.1em;
