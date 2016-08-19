@@ -53,7 +53,7 @@
 			Interested in computer systems, I am taking Systems Track when studying at CMU.</p>
 			<p>If you are going to contact me, please mail to <a href="mailto:levy@levy.at">levy@levy.at</a> or <a href="mailto:leiyuz@cs.cmu.edu">leiyuz@cs.cmu.edu</a>
 				. Any topic is welcomed :)</p>
-			<p class="boldness">Please note that this page is mainly used for detailed description of personal projects and experience. For succinct
+			<p class="boldness">Please note that this page is mainly used for detailed description of personal projects and experience. For brief
 			information about me, you can refer to my <a href="/en-us/cv.pdf">Curriculum Vitae (PDF)</a>.</p>
 
 			<h1>EDUCATION</h1>
@@ -89,7 +89,7 @@
 			</div>
 			<div class="div2res right1pxborderres_rightone force_no_margin_bottom">
 				<span class="chhead">
-					Operating System Group China, Microsoft (OSGC, ARD)
+					Operating Systems Group China, Microsoft (OSGC, ARD)
 				</span>
 				<br>
 				<span class="byline">
@@ -97,7 +97,7 @@
 				</span>
 			</div>
 			<ul class="verticalmargin1em">
-				<li>Assisted developing built-in universal apps for Windows 10, like Nearby Numbers, which is assembled in the Windows 10 Chinese Market Release</li>
+				<li>Developed built-in universal apps for Windows 10 Chinese Market Release, like Nearby Numbers</li>
 				<li>Developed non-built-in universal apps for Windows 10, like Microsoft How-old and Microsoft Couplet</li>
 			</ul>
 
@@ -115,7 +115,7 @@
 				<li>Assisted developing THUCloud Storage experimental platform. THUCloud Storage is an Openstack Swift
 				based cloud storage service, providing interfaces for file I/O and utilities for synchronization / conflict
 				detection.</li>
-				<li>Designed an experimental algorithm to grant robust distributed file system and  asynchronous atomic operations for Openstack Swift.
+				<li>Designed H2Cloud to host file system in a single object storage cloud like OpenStack Swift.
 				For detailed information please refer to <i>PROJECTS</i> part.</li>
 			</ul>
 
@@ -123,42 +123,63 @@
 
 			<p>
 				<span class="chheadbig">
-					Openstack Swift Layer-C
+					H2Cloud
 				</span>
 				<br/>
 				<span class="byline">
-					Developed from June 2015 to Present. Supervised by Dr.Zhenhua LI and Dr.Yunhao LIU.<br/>
-					Project source code repository: <a href="https://github.com/levythu/swift-layerC">[Python version - DEPRECATED]</a>
-						<a href="https://github.com/levythu/swiftlayerC-Go">[Golang version]</a>
+					Developed from June 2015 to July 2016. Supervised by Dr.Zhenhua LI and Dr.Yunhao LIU.<br/>
+					Project source code repository:
+						<a href="https://github.com/h2cloud/h2cloud">[View]</a>
 				</span>
 			</p>
 			<p>
-				Openstack Swift Layer-C is a midware for Openstack Swift, implemented for maintaining robust filesystem index
-				in Swift and providing atomic file / folder modification operation. It is done by committing and merging patches
-				in Distributed Segment Tree. A patent about the algorithm is submitted and being reviewed.
+				We design H2Cloud, a cloud storage system consisting of H2Layer and OpenStack Swift to maintain the users' filesystem
+				on the single object storage cloud. By the means, system complexity is greatly reduced compared to dual-cloud solutions
+				like Dropbox; while filesystem operation is expedited by a large scale compared to consistent hashing solutions like
+				Amazon S3.
 			</p>
 			<div class="centeredAlign restrictY">
 				<div class="picdemo_cont LvLinkedToINNERIMG">
-					<img class="pic_demo" src="/img/swift_layerc/swift_arch.png"/>
+					<img class="pic_demo" src="/img/h2cloud/dp.png"/>
 					<br/>
-					<p class="legen">Original architecture of Swift</p>
+					<p class="legen">Dual-cloud Solutions like Dropbox</p>
 				</div>
 				<div class="picdemo_cont LvLinkedToINNERIMG">
-					<img class="pic_demo" src="/img/swift_layerc/layerc_pos.png"/>
+					<img class="pic_demo" src="/img/h2cloud/ch.png"/>
 					<br/>
-					<p class="legen">Hack point of Layer-C</p>
+					<p class="legen">Consistent Hashing Solutions like Amazon S3</p>
 				</div>
 				<div class="picdemo_cont LvLinkedToINNERIMG">
-					<img class="pic_demo" src="/img/swift_layerc/rationale.png"/>
+					<img class="pic_demo" src="/img/h2cloud/compa.png"/>
 					<br/>
-					<p class="legen">Working Process</p>
+					<p class="legen">Comparison on Performance of MOVE and DELETE</p>
 				</div>
 				<div class="picdemo_cont LvLinkedToINNERIMG">
-					<img class="pic_demo" src="/img/swift_layerc/dis_tree.png"/>
+					<img class="pic_demo" src="/img/h2cloud/str.png"/>
 					<br/>
-					<p class="legen">Distributed Segment Tree</p>
+					<p class="legen">Filesystem Structure in H2Cloud</p>
 				</div>
 			</div>
+
+			<!--============================================================================-->
+			<div class="plcholder_1p5em"></div>
+			<!--============================================================================-->
+
+			<p>
+				<span class="chheadbig">
+					Gurgling (Web Framework for Golang)
+				</span>
+				<br/>
+				<span class="byline">
+					Developed from October 2015 to Present, by Leiyu ZHAO.<br/>
+					Project source code repository: <a href="https://github.com/levythu/Gurgling">[View]</a>
+				</span>
+			</p>
+			<p>
+				Gurgling is a light and configurable web framework with API similar to ExpressJS.
+				It provides full support for HTTP1.1, HTTPS, Websocket, etc.. Refer to the README in
+				GitHub page for more information.
+			</p>
 
 			<!--============================================================================-->
 			<div class="plcholder_1p5em"></div>
@@ -179,7 +200,7 @@
 				the stuff at Tsinghua University.
 			</p>
 			<p>
-				Since release in Dec.2014, it has got more than 21,000 subscribers. Also, it has distributed tickets for dozens of
+				Since release in Dec.2014, it has got more than 21,000 subscribers (up to Oct.2015). Also, it has distributed tickets for dozens of
 				activities, including popular ones with more than 2,000 participants and 3,000 subscribers requiring tickets concurrently.
 			</p>
 			<div class="centeredAlign restrictY">
@@ -225,7 +246,7 @@
 				</span>
 				<br/>
 				<span class="byline">
-					Developed from March 2014 to Present. Supervised by Dr.Fei QIAO.
+					Developed from March 2014 to June 2016. Supervised by Dr.Fei QIAO.
 				</span>
 			</p>
 			<p>
@@ -518,6 +539,24 @@
 			</h1>
 			<p>
 				<span class="chhead">
+					Outstanding Graduate Student Award for 2016, Beijing
+				</span>
+				<br>
+				<span class="byline">
+					July 2016, top 2% among all the graduate students in Beijing Province
+				</span>
+			</p>
+			<p>
+				<span class="chhead">
+					Outstanding Graduate Student Award for 2016, Tsinghua University
+				</span>
+				<br>
+				<span class="byline">
+					July 2016, top 5% among all the graduate students at Tsinghua University
+				</span>
+			</p>
+			<p>
+				<span class="chhead">
 					Excellent Works Award, 2014 Intel Mobile Computing Innovation Contest
 				</span>
 				<br>
@@ -572,22 +611,37 @@
 			</p>
 
 			<h1>
-				SKILLS &amp; EXPERTISE
+				SKILLS
 			</h1>
 			<ul>
 				<li>
-					<span class="chhead">Debugging Skills and Coding Languages </span>
-					(C, C++, Javascript, Go, Python, Haskell, Java, C#, Pascal)
+					<span class="chhead">Coding Languages and Debugging </span>
+					(C, C++, Javascript, Golang, Python, Haskell, Java, C#, Assembly ,Pascal)
 				</li>
 				<li>
 					<span class="chhead">Algorithm and Data Structure </span>
 				</li>
 				<li>
-					<span class="chhead">Linux </span>
+					<span class="chhead">Cloud Computing </span>
+					(OpenStack and AWS)
 				</li>
 				<li>
-					<span class="chhead">Website Development </span>
-					(HTML, Frontend, Backend)
+					<span class="chhead">Distributed Systems </span>
+					(MapReduce and Apache Spark)
+				</li>
+				<li>
+					<span class="chhead">Web Development </span>
+					(Frontend and Backend)
+				</li>
+			</ul>
+
+			<h1>
+				miscellanea
+			</h1>
+			<ul>
+				<li>
+					<span class="chhead">Welcome to my personal blog! </span>
+					[<a href="https://www.levy.at">LEVY.AT</a>] (Chinese)
 				</li>
 			</ul>
 
