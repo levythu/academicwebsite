@@ -1,0 +1,204 @@
+body {
+    margin: 0 !important;
+    background: #fafafa;
+}
+
+.widthStretchFull {
+    width: 100%;
+
+}
+
+.whiteBackground {
+
+}
+
+.blueBackground {
+    background: #2196F3;
+}
+
+.grayBackground {
+    background: #bababa;
+}
+
+#titleHolder {
+    font: 1em "Karla", sans-serif;
+    color: white;
+    display: table;
+    width: 100%;
+}
+
+.titleHead {
+    font-size: 2.8em;
+}
+.titleByLine {
+    font-size: 1.2em;
+}
+
+.circle {
+    margin: 1em;
+    width: 8em;
+    height: 8em;
+    display: inline-block;
+    -moz-border-radius: 4em;
+	-webkit-border-radius: 4em;
+	border-radius: 4em;
+    background: white;
+}
+
+#favicon {
+    background-size: cover;
+    background-image: url("/img/me/Favicon.jpg");
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.right0px {
+    width: 47%;
+    text-align: right;
+}
+.right0px_rightone {
+    width: 47%;
+    text-align: left;
+}
+
+.div2res2 {
+    width: 49%;
+    display: table-cell;
+    vertical-align: middle;
+}
+@media screen and (max-width: 800px) {
+    .div2res2 {
+        width: 100%;
+        margin-bottom: 0.5em;
+        display: block;
+    }
+    .right0px {
+        border-right: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    .right0px_rightone {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+.contentContainer {
+    font-size: 1.1em;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.contentContainer h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    color: #1E88E5;
+}
+.blueBackground .contentContainer {
+    color: white !important;
+}
+.blueBackground .contentContainer h1 {
+    color: white !important;
+}
+.blueBackground .contentContainer .byline {
+    color: white !important;
+}
+
+.contentContainer nav {
+    border-left: 5px solid;
+    padding-left: 20px;
+    border-left-color: #1E88E5;
+    margin-left: 0.1em;
+}
+.contentContainer .underNav {
+    border-left-color: #f0f0f0 !important;
+    padding-top: 0.3em;
+    width: 100%;
+}
+.contentContainer .underNav p{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.contentContainer .chhead {
+    font-size: 1.1em;
+    color: #212121;
+}
+.contentContainer .byline {
+    font-size: 0.85em;
+    color: #424242;
+}
+.contentContainer .bylineHead {
+    font-size: 1.17em;
+    color: #212121;
+}
+.contentContainer .material-icons {
+    font-size: 0.8em;
+}
+.contentContainer nav .floatRightShort {
+    float: right;
+    max-width: 8em;
+}
+.contentContainer .underNav a:hover {
+    text-decoration: none;
+}
+.collapseY {
+    height: 0 !important;
+}
+.contentContainer br {
+    height: 1em;
+}
+.logoAttachment {
+    max-height:1.8em;
+    max-width:100%;
+}
+@media screen and (max-width: 1000px) {
+    .contentContainer nav .floatRightShort {
+        float: right;
+        max-width: 0%;
+    }
+}
+
+.picdemo_ent {
+    background-repeat: no-repeat;
+    background-size: auto 7em;
+    height: 9em;
+    background-color: #1E88E5;
+    width: auto;
+}
+
+.picdemo_cont {
+    background-color: #1E88E5;
+    color: white;
+    box-shadow: 0.1em 0.1em 0.2em #bbb;
+    margin-left: 0em !important;
+}
+.legen {
+    font-size: 0.8em;
+    color: white !important;
+}
+
+.placeholder3em {
+    height: 3em;
+}
+
+.blueBackground a {
+    color:white;
+}
+
+.blueBackground hr {
+    border-bottom: solid 1px white;
+    border-top: transparent;
+}
+
+footer p {
+    width: 100%;
+    text-align: right;
+    font-size: 0.88em;
+}
