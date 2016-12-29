@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no" />
-    <title>Leiyu's Academic Page</title>
+    <title>Leiyu Zhao</title>
 
     <link href='/font/karla/css.css' rel='stylesheet' type='text/css'>
 	<link href="/font/neuton/css.css" rel='stylesheet' type='text/css'>
@@ -21,7 +21,7 @@
 </head>
 <body>
     <div class="widthStretchFull blueBackground">
-        <div class="placeholder3em">
+        <div class="plcholder_5em">
         </div>
         <div id="titleHolder">
             <div class="contentContainer">
@@ -43,7 +43,7 @@
 
                 <p>I am Leiyu Zhao, a student of Master of Computational Data Science (MCDS) at School of Computer Science, Carnegie Mellon University.
                 </p>
-                <p>Refer to my <I><a href="/en-us/cv.pdf">Curriculum Vitae (PDF)</a></I> for brief intro.</p>
+                <p>Refer to my <I><i class="material-icons">picture_as_pdf</i><a href="/en-us/cv.pdf">Curriculum Vitae (PDF)</a></I> for brief intro.</p>
             </div>
         </div>
     </div>
@@ -205,6 +205,39 @@
 
             <nav>
                 <span class="chhead">
+					CloudFS (Hybrid Storage System)
+				</span>
+				<br>
+                <I>
+				<span class="byline">
+					October 2016 to December 2016, by Leiyu ZHAO<br/>
+                    <I>Public disclosure of source code is not permitted according to the regulations of CMU. Please contact me for access.</I>
+				</span>
+                </I>
+            </nav>
+            <nav class="underNav aNav">
+                <span class="byline">
+                   <p>CloudFS is a <a href="https://github.com/libfuse/libfuse">FUSE</a>-based filesystem on Linux to store files in hybrid mode: small files and
+                       metadata are stored on local SSD, while big files are stored on Amazon S3 to utilize both the speed of SSD and high capacity of cloud storage.
+                       The variations in data locations and access patterns are transparent to user by hidding behind POSIX filesystem functions.
+                   </p>
+                   <p> It has full support for deduplication by rabin-fingerprint-anchored chunking, coarse-grained (chunks) local caching, instant snapshotting
+                       (and COW), online backup and recovery.
+                   </p>
+                </span>
+                <div class="restrictY">
+                    <div class="picdemo_cont LvLinkedToINNERIMG">
+                        <img class="pic_demo" src="/img/cloudfs/wp.png"/>
+                        <p class="legen">Modules and<br/> data accesses</p>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="plcholder_1p5em"></div>
+
+
+            <nav>
+                <span class="chhead">
 					H2Cloud
 				</span>
 				<br>
@@ -321,45 +354,6 @@
 
             <nav>
                 <span class="chhead">
-					Rousey Wristband Mouse
-				</span>
-				<br>
-                <I>
-				<span class="byline">
-					Developed from March 2014 to June 2016. Supervised by Dr.Fei QIAO.
-				</span>
-                </I>
-            </nav>
-            <nav class="underNav aNav">
-                <span class="byline">
-                    <p>Rousey is a wristband-like device which takes advantage of infrared camera and recognizes gestures to provide an invisible mouse
-    				as an input to PC/Tablet/Ultrabook to combine accuracy with portability. It is highly commented by engineers from Intel, winning
-    				Excellent Works in Intel Mobile Computing Innovation Contest.</p>
-                </span>
-                <div class="restrictY">
-                    <div class="picdemo_cont LvLinkedToINNERIMG">
-    					<img class="pic_demo" src="/img/rousey/design.png"/>
-    					<p class="legen">Design<br/>&nbsp;</p>
-    				</div>
-    				<div class="picdemo_cont LvLinkedToINNERIMG">
-    					<img class="pic_demo" src="/img/rousey/poster.png"/>
-    					<p class="legen">Academic<br/>poster</p>
-    				</div>
-    				<div class="picdemo_cont LvLinkedToINNERIMG">
-    					<img class="pic_demo" src="/img/rousey/demo.jpg"/>
-    					<p class="legen">DEMO<br/>&nbsp;</p>
-    				</div>
-    				<div class="picdemo_cont LvLinkedToINNERIMG">
-    					<img class="pic_demo" src="/img/rousey/running.png"/>
-    					<p class="legen">Image capture &amp; processing<br/>&nbsp;</p>
-    				</div>
-                </div>
-            </nav>
-
-            <div class="plcholder_1p5em"></div>
-
-            <nav>
-                <span class="chhead">
 					Graphical User Interface for UNIX
 				</span>
 				<br>
@@ -395,6 +389,46 @@
     				<div class="picdemo_cont LvLinkedToINNERIMG">
     					<img class="pic_demo" src="/img/xv6/about.png"/>
     					<p class="legen">Multi-process<br/>  support</p>
+    				</div>
+                </div>
+            </nav>
+
+            <div class="plcholder_1p5em"></div>
+
+            <nav>
+                <span class="chhead">
+					CoDrawboard (Distributed Realtime Collaborative Drawboard)
+				</span>
+				<br>
+                <I>
+				<span class="byline">
+                    Developed from October 2016 to December 2016, by Leiyu ZHAO, Chen LUO. <br/>
+                    <I>Public disclosure of source code is not permitted according to the regulations of CMU. Please contact me for access.</I>
+				</span>
+                </I>
+            </nav>
+            <nav class="underNav aNav">
+                <span class="byline">
+                    <p>CoDrawboard is a highly fault tolerant distributed realtime collaborative drawboard, which
+                    allows all the users connecting to the same arbitrarily big backend cluster to share the same
+                    canvas.</p>
+                    <p>Thanks to PAXOS, the system functions well as long as quorum (more than half) backends are
+                    alive. With live-switch and offline mode, the users may not even feel the failure no matter
+                    how many servers on the backend crush. </p>
+                    <p>Refer to <a href="/img/codraw/readme.pdf">README</a> for more info.</p>
+                </span>
+                <div class="restrictY">
+                    <div class="picdemo_cont LvLinkedToINNERIMG">
+    					<img class="pic_demo" src="/img/codraw/connect.png"/>
+    					<p class="legen">Connecting <br/> to cluster</p>
+    				</div>
+                    <div class="picdemo_cont LvLinkedToINNERIMG">
+    					<img class="pic_demo" src="/img/codraw/drawboard.png"/>
+    					<p class="legen">UI - <br/> the drawboard</p>
+    				</div>
+                    <div class="picdemo_cont LvLinkedToINNERIMG">
+    					<img class="pic_demo" src="/img/codraw/failure.png"/>
+    					<p class="legen">Backend <br/>failure tolerence</p>
     				</div>
                 </div>
             </nav>
@@ -471,6 +505,45 @@
     				<div class="picdemo_cont LvLinkedToINNERIMG">
     					<img class="pic_demo" src="/img/js2jv/contrast.png"/>
     					<p class="legen">Original vs <br/>generated TAC</p>
+    				</div>
+                </div>
+            </nav>
+
+            <div class="plcholder_1p5em"></div>
+
+            <nav>
+                <span class="chhead">
+					Rousey Wristband Mouse
+				</span>
+				<br>
+                <I>
+				<span class="byline">
+					Developed from March 2014 to June 2016. Supervised by Dr.Fei QIAO.
+				</span>
+                </I>
+            </nav>
+            <nav class="underNav aNav">
+                <span class="byline">
+                    <p>Rousey is a wristband-like device which takes advantage of infrared camera and recognizes gestures to provide an invisible mouse
+    				as an input to PC/Tablet/Ultrabook to combine accuracy with portability. It is highly commented by engineers from Intel, winning
+    				Excellent Works in Intel Mobile Computing Innovation Contest.</p>
+                </span>
+                <div class="restrictY">
+                    <div class="picdemo_cont LvLinkedToINNERIMG">
+    					<img class="pic_demo" src="/img/rousey/design.png"/>
+    					<p class="legen">Design<br/>&nbsp;</p>
+    				</div>
+    				<div class="picdemo_cont LvLinkedToINNERIMG">
+    					<img class="pic_demo" src="/img/rousey/poster.png"/>
+    					<p class="legen">Academic<br/>poster</p>
+    				</div>
+    				<div class="picdemo_cont LvLinkedToINNERIMG">
+    					<img class="pic_demo" src="/img/rousey/demo.jpg"/>
+    					<p class="legen">DEMO<br/>&nbsp;</p>
+    				</div>
+    				<div class="picdemo_cont LvLinkedToINNERIMG">
+    					<img class="pic_demo" src="/img/rousey/running.png"/>
+    					<p class="legen">Image capture &amp; processing<br/>&nbsp;</p>
     				</div>
                 </div>
             </nav>
